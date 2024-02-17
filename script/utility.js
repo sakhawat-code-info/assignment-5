@@ -1,3 +1,6 @@
+function getId(id) {
+    document.getElementById(id);
+}
 
 function getIdSetValue(id, value) {
     document.getElementById(id).innerHTML = value;
